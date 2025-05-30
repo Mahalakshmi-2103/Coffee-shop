@@ -302,7 +302,7 @@ footer {
   color: #212529;
   font-size: 20px;
   border: 1.5px solid #212529;
-  padding: 0.5rem 0.3rem;
+  padding: 0.4rem 1rem;
   border-radius: 0.5rem;
   display: none;
 }
@@ -469,7 +469,7 @@ span {
   .navLinkBox .dropDown {
     display: block;
     position: absolute;
-    top: 4.5rem;
+    top: 4rem;
     right: 5rem;
     cursor: pointer;
   }
@@ -486,6 +486,7 @@ span {
 
   .heroBox {
     width: 70%;
+    height: auto;
   }
 
   h1 {
