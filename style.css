@@ -378,6 +378,10 @@ footer {
 /* Facility code */
 
 /* Popular code */
+.popularBox {
+  padding: 1rem 3rem;
+}
+
 /* Popular code */
 
 /* Gallery code */
@@ -536,14 +540,15 @@ span {
     word-spacing: normal;
   }
 
- .popularBox{
-  width: 227px;
-  height: auto;
-padding: 1rem 3rem;
+  .popularBox {
+    width: 257px;
+    height: auto;
+
   }
 
-  .teamBox{
-padding: 1rem 3rem;
+  .teamBox {
+    width: 295px;
+    aspect-ratio: 2/2;
   }
 
   .numberBlock {
