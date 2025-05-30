@@ -166,7 +166,7 @@ a {
 /* project standard classes Starts */
 
 .componentSpacing {
-  padding: 3rem 0rem;
+  padding: 2rem 0rem;
   /* Breathing Space Between Components */
 }
 
@@ -298,14 +298,17 @@ footer {
   display: none;
 }
 
+
 .navLinkBox .dropDown {
-  color: #212529;
-  font-size: 20px;
-  border: 1.5px solid #212529;
-  padding: 0.4rem 1rem;
-  border-radius: 0.5rem;
+  color: #302d2d80;
+  font-size: 28px;
+  border: 1px solid #5e5c5c80;
+  padding: 2px 12px;
+  border-radius: 0.3rem;
   display: none;
+
 }
+
 
 /* Navbar code */
 
@@ -359,13 +362,16 @@ footer {
 .facilityCardHeader {
   margin: 2rem 0rem;
 }
-
+.facilityCardMain h3{
+  font-weight: 500;
+}
 .facilityCardMain p {
   word-spacing: 1.5rem;
   margin: 1rem 1rem;
   text-align: start;
   font-weight: 400;
 }
+
 
 /* Facility code */
 
@@ -390,7 +396,8 @@ footer {
 
 .teamImage img {
   width: auto;
-  height: 395px;
+  aspect-ratio: 4/2;
+  /* height: 395px; */
 }
 
 /* Team code */
@@ -466,11 +473,21 @@ span {
     padding: 0rem 1rem;
   }
 
+  .navLinkBox,
+  .navLinks li a {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 0.5rem 0rem;
+    margin-right: 3rem;
+
+  }
+
   .navLinkBox .dropDown {
     display: block;
     position: absolute;
-    top: 4rem;
-    right: 5rem;
+    top: 3rem;
+    right: 6rem;
     cursor: pointer;
   }
 
@@ -479,14 +496,21 @@ span {
     display: none;
   }
 
-  #ham:checked~.navLinks {
+  #ham:checked~.navLinks
+   {
     display: flex;
-
   }
+.hero{
+  background-size:auto;
+padding: 35rem 0rem;
 
-  .heroBox {
-    width: 70%;
-    height: auto;
+}
+  .heroBlock {
+    width: 125%;
+    height:100%;
+position: absolute;
+top: 15rem;
+/* left: 3rem; */
   }
 
   h1 {
@@ -498,12 +522,26 @@ span {
     font-weight: 400;
     text-wrap: balance;
     word-spacing: normal;
+  } 
+  .headingBox figure img{
+    width: 180px;
+    height: auto;
   }
 
   .facilityCardMain p {
     word-spacing: normal;
   }
-
+.populars img{
+  width: 307px;
+ aspect-ratio: 2/1.8;
+}
+.teamImage img{
+  width: 345px;
+  aspect-ratio:4/3.5;
+}
+.numberBlock{
+  padding-bottom: 2rem;
+}
 
 }
 
