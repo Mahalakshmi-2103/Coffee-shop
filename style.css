@@ -395,8 +395,8 @@ footer {
 }
 
 .teamImage img {
-  width: auto;
-  aspect-ratio: 4/2;
+  width: 395px;
+  aspect-ratio: 2/2;
   /* height: 395px; */
 }
 
@@ -532,12 +532,12 @@ top: 15rem;
     word-spacing: normal;
   }
 .populars img{
-  width: 307px;
- aspect-ratio: 2/1.8;
+  width: 2270px;
+ aspect-ratio: 2/2;
 }
 .teamImage img{
-  width: 345px;
-  aspect-ratio:4/3.5;
+  width: 245px;
+  aspect-ratio:2/1.5;
 }
 .numberBlock{
   padding-bottom: 2rem;
