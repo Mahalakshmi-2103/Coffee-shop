@@ -536,11 +536,11 @@ span {
     word-spacing: normal;
   }
 
- .populars {
+ .popularBox{
 padding: 1rem 3rem;
   }
 
-  .teamImage img {
+  .teamBox{
 padding: 1rem 3rem;
   }
 
