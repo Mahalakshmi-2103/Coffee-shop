@@ -362,9 +362,11 @@ footer {
 .facilityCardHeader {
   margin: 2rem 0rem;
 }
-.facilityCardMain h3{
+
+.facilityCardMain h3 {
   font-weight: 500;
 }
+
 .facilityCardMain p {
   word-spacing: 1.5rem;
   margin: 1rem 1rem;
@@ -496,21 +498,22 @@ span {
     display: none;
   }
 
-  #ham:checked~.navLinks
-   {
+  #ham:checked~.navLinks {
     display: flex;
   }
-.hero{
-  background-size:auto;
-padding: 35rem 0rem;
 
-}
+  .hero {
+    background-size: auto;
+    padding: 35rem 0rem;
+
+  }
+
   .heroBlock {
     width: 125%;
-    height:100%;
-position: absolute;
-top: 15rem;
-/* left: 3rem; */
+    height: 100%;
+    position: absolute;
+    top: 12rem;
+    /* left: 3rem; */
   }
 
   h1 {
@@ -522,8 +525,9 @@ top: 15rem;
     font-weight: 400;
     text-wrap: balance;
     word-spacing: normal;
-  } 
-  .headingBox figure img{
+  }
+
+  .headingBox figure img {
     width: 180px;
     height: auto;
   }
@@ -531,17 +535,18 @@ top: 15rem;
   .facilityCardMain p {
     word-spacing: normal;
   }
-.populars img{
-  width: 227px;
-height: auto;
-}
-.teamImage img{
-  width: 245px;
- height: auto;
-}
-.numberBlock{
-  padding-bottom: 2rem;
-}
+
+ .populars img {
+padding: 1rem 3rem;
+  }
+
+  .teamImage img {
+padding: 1rem 3rem;
+  }
+
+  .numberBlock {
+    padding-bottom: 2rem;
+  }
 
 }
 
