@@ -509,7 +509,7 @@ span {
   }
 
   .heroBlock {
-    width: 125%;
+    width: 100%;
     height: 100%;
     position: absolute;
     top: 12rem;
@@ -536,7 +536,7 @@ span {
     word-spacing: normal;
   }
 
- .populars img {
+ .populars {
 padding: 1rem 3rem;
   }
 
