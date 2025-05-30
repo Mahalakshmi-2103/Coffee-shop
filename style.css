@@ -532,12 +532,12 @@ top: 15rem;
     word-spacing: normal;
   }
 .populars img{
-  width: 2270px;
- aspect-ratio: 2/2;
+  width: 227px;
+height: auto;
 }
 .teamImage img{
   width: 245px;
-  aspect-ratio:2/1.5;
+ height: auto;
 }
 .numberBlock{
   padding-bottom: 2rem;
